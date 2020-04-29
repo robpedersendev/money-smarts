@@ -26,11 +26,11 @@ const Newsletter = () => {
               return (
                 <form
                   // className="centered"
-                  onSubmit={() => {
+                  onSubmit={(event) => {
                     event.preventDefault();
 
                     subscribe({
-                      EMAIL: emailRef.current.value
+                      EMAIL: emailRef.current.value,
                     });
                   }}
                 >
