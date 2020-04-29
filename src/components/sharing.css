@@ -57,7 +57,6 @@ h2 {
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  border: 1px solid blue;
 }
 a,
 a:visited,
@@ -90,7 +89,6 @@ a {
 }
 
 li.shareBtn {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -101,7 +99,6 @@ li.shareBtn {
 }
 
 li.shareBtn > a.github {
-  border: 1px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
