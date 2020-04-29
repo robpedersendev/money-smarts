@@ -1,4 +1,4 @@
-# money-smarts
+# money-smarts [![Netlify Status](https://api.netlify.com/api/v1/badges/8ba18ebf-1d0e-4501-808d-bb38b329002c/deploy-status)](https://app.netlify.com/sites/dreamy-lamport-fa3c50/deploys)
 
 [Mailchimp Landing Page Email collector](https://mailchi.mp/ead1b3134e7b/life-calculator)
 
