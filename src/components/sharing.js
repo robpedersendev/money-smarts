@@ -8,32 +8,32 @@ import {
 } from "react-share";
 const links = [
   {
-    href: "https://twitter.com/share?ref_src=twsrc%5Etfw",
+    href: "https://twitter.com/intent/tweet?url=https%3A%2F%2F",
     className: "twitter-share-button",
     label: "Share on",
     alt: "twitter logo",
     // img: "/assets/twitter.png",
     textbody:
       "I am so excited that I will soon know what my pre tax salary should be!",
-    url: "https://life-calculator.now.sh/",
+    url: "https://moneysmarts.app",
     datavia: "robpedersendev",
     hashtags: ["WhatShouldYourPreTaxIncomeBe"],
   },
   {
     href:
-      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flife-calculator.now.sh%2F&amp;src=sdkpreparse",
+      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmoneysmarts.app%2F&amp;src=sdkpreparse",
     label: "Share on",
     className: "facebook-share-button",
     alt: "facebook logo",
     // img: "/assets/facebook.png",
     textbody:
       "I am so excited that I will soon know what my pre tax salary should be!",
-    url: "https://life-calculator.now.sh/",
+    url: "https://moneysmarts.app",
     datavia: "@robpedersendev",
     hashtags: "#WhatShouldYourPreTaxIncomeBe",
   },
   {
-    href: "https://github.com/robpedersendev/life-calculator",
+    href: "https://github.com/robpedersendev/money-smarts",
     label: "GitHub",
     className: "github",
     alt: "github logo",
@@ -53,9 +53,21 @@ const Sharing = () => (
       <h2 className="sharingTitle ">Social media and various links</h2>
       <ul className="width60">
         <li className="shareBtn">
+          <p>{links[0].label}</p>
+          <TwitterShareButton
+            title={links[0].textbody}
+            url={links[0].url}
+            via={links[0].datavia}
+            hashtags={links[0].hashtags}
+            // className={links[0].className}
+          >
+            <TwitterIcon size={64} round />
+          </TwitterShareButton>
+        </li>
+        <li className="shareBtn">
           <p>{links[1].label}</p>
           <FacebookShareButton
-            url={links[1].url}
+            url={"links[1].url"}
             quote={
               links[1].textbody +
               " " +
@@ -67,18 +79,6 @@ const Sharing = () => (
           >
             <FacebookIcon size={64} round />
           </FacebookShareButton>
-        </li>
-        <li className="shareBtn">
-          <p>{links[0].label}</p>
-          <TwitterShareButton
-            title={"Check out Life Calculator at"}
-            url={links[1].url}
-            via={links[0].datavia}
-            hashtags={links[0].hashtags}
-            // className={links[0].className}
-          >
-            <TwitterIcon size={64} round />
-          </TwitterShareButton>
         </li>
         <li className="shareBtn">
           <a
