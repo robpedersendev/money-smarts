@@ -6,12 +6,14 @@ import Newsletter from "./components/newsletter";
 function App() {
   return (
     <div className="body">
-      <div className="hero">
-        <div className="centered">
-          <Newsletter className="centered_oneline" />
+      <div className="row margintop8em" id="landingPage">
+        <div className="column" id="newsletter">
+          <Newsletter />
+        </div>
+        <div className="column" id="sharing">
+          <Sharing />
         </div>
       </div>
-      <Sharing />
     </div>
   );
 }
