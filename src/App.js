@@ -1,19 +1,17 @@
 import React from "react";
-import "./App.css";
-import Sharing from "./components/sharing";
-import Newsletter from "./components/newsletter";
+import ComingSoon from "react-coming-soon";
 
 function App() {
   return (
     <div className="body">
-      <div className="row margintop8em" id="landingPage">
-        <div className="column" id="newsletter">
-          <Newsletter />
-        </div>
-        <div className="column" id="sharing">
-          <Sharing />
-        </div>
-      </div>
+      <ComingSoon
+        title="Currently under construction"
+        subtitle="We are building moneysmarts.app out to ensure a user friendly experience. Please stay tuned for updates."
+        bgColor="#212121"
+        textColor="#fcb900"
+        date="Tue Jun 30 2020 15:00:00 GMT-0600 (Mountain Daylight Time)"
+        illustration="planning"
+      />
     </div>
   );
 }
