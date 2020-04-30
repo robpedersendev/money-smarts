@@ -21,7 +21,7 @@ const links = [
   },
   {
     href:
-      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmoneysmarts.app%2F&amp;src=sdkpreparse",
+      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmoneysmarts.app%2F&amp",
     label: "Share on",
     className: "facebook-share-button",
     alt: "facebook logo",
