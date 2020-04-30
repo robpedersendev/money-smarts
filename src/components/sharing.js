@@ -67,7 +67,7 @@ const Sharing = () => (
         <li className="shareBtn">
           <p>{links[1].label}</p>
           <FacebookShareButton
-            url={"links[1].url"}
+            url={links[1].url}
             quote={
               links[1].textbody +
               " " +
