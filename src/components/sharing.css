@@ -1,6 +1,6 @@
 h2 {
   display: inline;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
@@ -107,4 +107,9 @@ li.shareBtn > a.github {
   flex-wrap: wrap;
   width: 100%;
   margin: 0 auto;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 300;
 }
