@@ -1,5 +1,5 @@
 import React from "react";
-import "./sharing.css";
+import "../styles/sharing.scss";
 import {
   FacebookShareButton,
   FacebookIcon,

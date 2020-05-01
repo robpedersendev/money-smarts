@@ -1,18 +1,13 @@
 import React from "react";
-import "./App.css";
-import Sharing from "./components/sharing";
-import Newsletter from "./components/newsletter";
+import "./styles/App.scss";
+// import Sharing from "./components/sharing";
+import Calc from "./components/Form";
 
 function App() {
   return (
-    <div className="body">
-      <div className="row margintop8em" id="landingPage">
-        <div className="column" id="newsletter">
-          <Newsletter />
-        </div>
-        <div className="column" id="sharing">
-          <Sharing />
-        </div>
+    <div className="app">
+      <div id="formContainer">
+        <Calc />
       </div>
     </div>
   );

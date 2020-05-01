@@ -1,37 +1,9 @@
-.body {
-  width: 100%;
-}
 #landingPage {
   height: 100vh;
   width: 100%;
 }
-.column {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
 
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.margintop8em {
-  margin-top: 10em;
-  width: 50%;
-}
-#newsletter {
-  width: 50%;
-}
-#sharing {
-  border: 1px solid blue;
-}
-.body {
+.app {
   height: auto;
   background-image: url("/assets/black_sand_hidden_sun.png");
   background-position: center; /* Center the image */
@@ -43,4 +15,28 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  width: 100%;
+}
+
+#formContainer {
+  background-color: rgba($color: black, $alpha: 0.3);
+  height: auto;
+  width: 800px;
+  border: 1px solid green;
+}
+
+// .form {
+//   border: 1px solid yellow;
+
+//   margin: 0 auto;
+//   padding: 0;
+// }
+
+span {
+  width: 100%;
+  color: white;
+  font-size: 25px;
+}
+label {
+  color: white;
 }
