@@ -9,7 +9,7 @@ function App() {
         subtitle="We are building moneysmarts.app out to ensure a user friendly experience. Please stay tuned for updates."
         bgColor="#212121"
         textColor="#fcb900"
-        date="Tue Jun 30 2020 15:00:00 GMT-0600 (Mountain Daylight Time)"
+        date="Fri Jan 1 2021 00:00:00 GMT-0600 (Mountain Daylight Time)"
         illustration="planning"
       />
     </div>
