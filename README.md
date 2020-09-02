@@ -1,4 +1,4 @@
-#[money-smarts](https://moneysmarts.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/8ba18ebf-1d0e-4501-808d-bb38b329002c/deploy-status)](https://app.netlify.com/sites/dreamy-lamport-fa3c50/deploys)
+#Money Smarts [Link](https://moneysmarts.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/8ba18ebf-1d0e-4501-808d-bb38b329002c/deploy-status)](https://app.netlify.com/sites/dreamy-lamport-fa3c50/deploys)
 
 
 
