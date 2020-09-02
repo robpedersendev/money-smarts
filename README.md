@@ -6,7 +6,7 @@ Do you know how much you need to make before taxes to make all your post-tax obl
 
 # Planning
 
-This project will be hosted using ZEIT utilizing the NextJS framework for the front end, and once it is in place - Firestore for the backend. This will allow for fast rendering, easy authentication, quick database establishing and modification when necessary.
+This project will be hosted using Netlify utilizing the ReactJS framework for the front end, and once it is in place - Firestore for the backend. This will allow for fast rendering, easy authentication, quick database establishing and modification when necessary.
 
 User Flow
 
